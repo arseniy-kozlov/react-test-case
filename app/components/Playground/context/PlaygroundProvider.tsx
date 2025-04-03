@@ -18,6 +18,8 @@ export const PlaygroundProvider = ({ children }: PropsWithChildren) => {
     setKingPosition(GenerateKingPosition());
     setPlayer(GeneratePlayer());
     setPlayerPosition(GeneratePlayerPosition());
+    setDirection(undefined);
+    setSteps(undefined);
     // TODO
   };
 
